@@ -51,3 +51,27 @@ const App = () => <div></div>
 `, {
   jsx: 'h'
 })
+
+snapshot('modern mode', `
+const a = async () => {}
+
+const b = {
+  ...a
+}
+`, {
+  mode: 'modern'
+})
+
+snapshot('loose mode', `
+const a = async () => {}
+
+const b = {
+  ...a
+}
+
+for (const [i,v] of c.entries()) {
+  console.log(i,v)
+}
+`, {
+  mode: 'loose'
+})

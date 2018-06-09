@@ -5,9 +5,10 @@
 
 ## Features
 
-- Loose mode by default
 - Minimal `async/await` transform
-- You can use `modern` mode to only support newer browsers
+- Loose mode if you want minimal output but still need to support old browsers like IE 9
+- Modern mode if you only target browsers that support `<script type="module">` tag
+- [...See complete features](./test/snapshot/index.test.js.md).
 
 ## Install
 
@@ -36,8 +37,8 @@ Your `.babelrc`:
 ### mode
 
 - __Type__: `string`
-- __Default__: `loose`
-- __Possible values__: `loose`
+- __Default__: `undefined`
+- __Possible values__: `loose` `modern`
 
 ## Contributing
 
