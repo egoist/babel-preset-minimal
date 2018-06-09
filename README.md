@@ -8,7 +8,7 @@
 - Minimal `async/await` transform
 - Loose mode if you want minimal output but still need to support old browsers like IE 9
 - Modern mode if you only target browsers that support `<script type="module">` tag
-- [...See complete features](./test/snapshot/index.test.js.md).
+- [...See complete features](./test/snapshots/index.test.js.md).
 
 ## Install
 
