@@ -58,6 +58,10 @@ const a = async () => {}
 const b = {
   ...a
 }
+
+for (const [i,v] of c.entries()) {
+  console.log(i,v)
+}
 `, {
   mode: 'modern'
 })
