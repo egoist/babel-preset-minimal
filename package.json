@@ -23,7 +23,7 @@
     "@babel/preset-react": "^7.0.0-beta.49",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-plugin-transform-vue-jsx": "4",
-    "fast-async": "^6.3.7"
+    "fast-async": "^7.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.49",
