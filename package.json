@@ -17,16 +17,16 @@
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.49",
-    "@babel/plugin-syntax-dynamic-import": "^7.0.0-beta.49",
-    "@babel/preset-env": "^7.0.0-beta.49",
-    "@babel/preset-react": "^7.0.0-beta.49",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
-    "babel-plugin-transform-vue-jsx": "4",
+    "babel-plugin-transform-vue-jsx": "^4.0.1",
     "fast-async": "^7.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.49",
+    "@babel/core": "^7.0.0",
     "ava": "^0.25.0",
     "eslint-config-rem": "^4.0.0",
     "xo": "^0.18.0"
