@@ -5,7 +5,7 @@ module.exports = (_, { jsx = 'react', mode } = {}) => {
       {
         modules: false,
         loose: mode === 'loose',
-        useBuiltIns: 'entry',
+        useBuiltIns: false,
         exclude: [
           'transform-async-to-generator',
           'transform-regenerator',
