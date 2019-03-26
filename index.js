@@ -29,12 +29,7 @@ module.exports = (_, { jsx = 'react', mode } = {}) => {
   const plugins = [
     require.resolve('@babel/plugin-syntax-dynamic-import'),
     jsx === 'vue' && require.resolve('babel-plugin-transform-vue-jsx'),
-    mode !== 'modern' && [
-      require.resolve('fast-async'),
-      {
-        spec: true
-      }
-    ],
+    mode !== 'modern' && require.resolve('babel-plugin-transform-async-to-promises'),
     [
       require.resolve('@babel/plugin-proposal-object-rest-spread'),
       {
